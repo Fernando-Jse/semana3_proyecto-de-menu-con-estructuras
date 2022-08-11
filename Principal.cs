@@ -19,12 +19,11 @@ namespace semana3_proyecto_de_menu_con_estructuras
         {
             System.Console.WriteLine("Proyecto de Menu");
             System.Console.WriteLine("Primer Programa Usando Estructuras");
+            System.Console.WriteLine("Presione ENTER para continuar");
 
             System.Console.ReadKey();
 
             int repetir;
-
-            //menu_interno();
 
             do
             {
@@ -32,26 +31,24 @@ namespace semana3_proyecto_de_menu_con_estructuras
                 menu_interno();
 
                 System.Console.WriteLine("Ingrese 1 para repetir menú");
-                System.Console.WriteLine("Ingrese 2 para salir");
+                System.Console.WriteLine("Ingrese 2 para salir del menú");
                 repetir = Int32.Parse(Console.ReadLine());
 
             } while (repetir == 1);
 
-        } //Cierre de función principal
+        } 
 
-
-        //Inicio de funciones interna
         static void menu_interno()
         {
             string opcion;
             int opcionint;
 
-            System.Console.WriteLine("Menu Principal");
-            System.Console.WriteLine("1. Ejemplo If");
-            System.Console.WriteLine("2. Ejemplo Switch");
-            System.Console.WriteLine("3. Ejemplo For");
-            System.Console.WriteLine("4. Ejemplo Wor");
-            System.Console.WriteLine("5. Ejemplo Do While");
+            System.Console.WriteLine("Menú Principal");
+            System.Console.WriteLine("1-) Ejemplo If");
+            System.Console.WriteLine("2-) Ejemplo Switch");
+            System.Console.WriteLine("3-) Ejemplo For");
+            System.Console.WriteLine("4-) Ejemplo Wor");
+            System.Console.WriteLine("5-) Ejemplo Do While");
 
             System.Console.WriteLine("Selecciona tu opcion: ");
             opcion = Console.ReadLine();
@@ -92,35 +89,30 @@ namespace semana3_proyecto_de_menu_con_estructuras
 
         }
 
-        //Función interna para ejemplo if
         static void programa_if()
         {
-            System.Console.WriteLine("Aqui llamo ejemplo If");
+            System.Console.WriteLine("Aqui llamo el ejemplo If");
 
         }
 
-        //Función interna para ejemplo switch
         static void programa_switch()
         {
-            System.Console.WriteLine("Aqui llamo ejemplo Switch");
+            System.Console.WriteLine("Aqui llamo el ejemplo Switch");
         }
 
-        //Función interna para ejemplo for
         static void programa_for()
         {
-            System.Console.WriteLine("Aqui llamo ejemplo For");
+            System.Console.WriteLine("Aqui llamo el ejemplo For");
         }
 
-        //Función interna para ejemplo while
         static void programa_while()
         {
-            System.Console.WriteLine("Aqui llamo ejemplo While");
+            System.Console.WriteLine("Aqui llamo el ejemplo While");
         }
 
-        //Función interna para ejemplo dowhile
         static void programa_dowhile()
         {
-            System.Console.WriteLine("Aqui llamo ejemplo DoWhile");
+            System.Console.WriteLine("Aqui llamo el ejemplo DoWhile");
         }
 
     }
