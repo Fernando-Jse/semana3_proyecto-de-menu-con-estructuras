@@ -8,7 +8,7 @@ namespace semana3_proyecto_de_menu_con_estructuras
 {
     class Ejemplo_DoWhile
     {
-        public static void estructura_for()
+        public static void estructura_DoWhile()
         {
             System.Console.WriteLine("DoWhile externo");
         }

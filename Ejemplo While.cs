@@ -8,7 +8,7 @@ namespace semana3_proyecto_de_menu_con_estructuras
 {
     class Ejemplo_While
     {
-        public static void estructura_for()
+        public static void estructura_While()
         {
             System.Console.WriteLine("While externo");
         }

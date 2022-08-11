@@ -8,7 +8,7 @@ namespace semana3_proyecto_de_menu_con_estructuras
 {
     class Ejemplo_If
     {
-        public static void estructura_for()
+        public static void estructura_If()
         {
             System.Console.WriteLine("If externo");
         }

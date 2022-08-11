@@ -17,9 +17,9 @@ namespace semana3_proyecto_de_menu_con_estructuras
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Proyecto de Menu");
-            System.Console.WriteLine("Primer Programa Usando Estructuras");
-            System.Console.WriteLine("Presione ENTER para continuar");
+            System.Console.WriteLine("Proyecto de Menu sobre Estructuras");
+            System.Console.WriteLine("Primer Programa Usando Estructuras en modo Consola");
+            System.Console.WriteLine("Presione cualquier tecla para continuar");
 
             System.Console.ReadKey();
 
@@ -30,7 +30,7 @@ namespace semana3_proyecto_de_menu_con_estructuras
                 Console.Clear();
                 menu_interno();
 
-                System.Console.WriteLine("Ingrese 1 para repetir menú");
+                System.Console.WriteLine("Ingrese 1 para continuar el menú");
                 System.Console.WriteLine("Ingrese 2 para salir del menú");
                 repetir = Int32.Parse(Console.ReadLine());
 
@@ -47,7 +47,7 @@ namespace semana3_proyecto_de_menu_con_estructuras
             System.Console.WriteLine("1-) Ejemplo If");
             System.Console.WriteLine("2-) Ejemplo Switch");
             System.Console.WriteLine("3-) Ejemplo For");
-            System.Console.WriteLine("4-) Ejemplo Wor");
+            System.Console.WriteLine("4-) Ejemplo While");
             System.Console.WriteLine("5-) Ejemplo Do While");
 
             System.Console.WriteLine("Selecciona tu opcion: ");
@@ -82,7 +82,7 @@ namespace semana3_proyecto_de_menu_con_estructuras
                     break;
 
                 default:
-                    System.Console.WriteLine("opcion no valida");
+                    System.Console.WriteLine("opción no valida");
                     break;
 
             }
