@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace semana3_proyecto_de_menu_con_estructuras
 {
-    class Program
+    class Menu
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
