@@ -8,5 +8,9 @@ namespace semana3_proyecto_de_menu_con_estructuras
 {
     class Ejemplo_Switch
     {
+        public static void estructura_for()
+        {
+            System.Console.WriteLine("Switch externo");
+        }
     }
 }
